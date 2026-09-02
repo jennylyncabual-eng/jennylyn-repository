@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to send me a message.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>My Contact Information</h2>
+
+            <p><strong>Email:</strong>jennylyncabual@gmail.com</p>
+            <p><strong>Facebook:</strong> Jennylyn Reyes</p>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <p>How did you find my website?</p>
+
+                <input type="radio" id="school" name="source" value="school">
+                <label for="school">School</label>
+
+                <input type="radio" id="friend" name="source" value="friend">
+                <label for="friend">Friend</label>
+
+                <input type="radio" id="social" name="source" value="social">
+                <label for="social">Social Media</label>
+
+                <br><br>
+
+                <label for="interest">What are you interested in?</label><br>
+
+                <select id="interest" name="interest">
+                    <option value="website">Website</option>
+                    <option value="project">My Projects</option>
+                    <option value="about">About Me</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <br><br>
+
+                <input type="checkbox" id="reply" name="reply">
+                <label for="reply">I would like to receive a reply.</label>
+
+                <br><br>
+
+                <label for="message">Your Message:</label><br>
+
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          cols="40"
+                          placeholder="Write your message here..."></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
